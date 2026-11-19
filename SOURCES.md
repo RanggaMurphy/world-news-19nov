@@ -4,9 +4,9 @@ Every story on the page was supplied as a verified item for this
 entry, each confirmed by at least two outlets before it was used.
 Nothing on the page comes from any other day or any other list.
 
-1. Asia / Summit — BusinessWorld, AFP, AP: Trump, Xi and Putin in Shenzhen.
-2. Europe / Conflict — Reuters: Crimea Bridge attacked a third time in a week.
-3. Culture / Technology — Associated Press: Grand Theft Auto VI release.
+1. Culture / Technology — Associated Press: Grand Theft Auto VI release (lead story).
+2. Asia / Summit — BusinessWorld, AFP, AP: Trump, Xi and Putin in Shenzhen.
+3. Europe / Conflict — Reuters: Crimea Bridge attacked a third time in a week.
 4. Middle East / Conflict — Sky News, AFP: Israeli tanks cross the Yellow Line.
 5. Asia / Weather — India Meteorological Department, The Hindu: Cyclone Akvan.
 6. United States / Politics — AP, Reuters: Jeffries nominated for Speaker.

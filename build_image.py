@@ -150,24 +150,24 @@ def scene_gta(draw, box):
     draw.ellipse([x0 + 178, y1 - 16, x0 + 190, y1 - 4], fill=(200, 200, 200))
 
 
-SCENES = {1: scene_summit, 2: scene_bridge, 3: scene_gta}
+SCENES = {1: scene_gta, 2: scene_summit, 3: scene_bridge}
 
 FEATURES = [
-    dict(num=1, cat="ASIA · SUMMIT", src="BusinessWorld · AFP · AP", color=TEAL,
-         head="Trump, Xi and Putin sit down together in Shenzhen — a first",
-         body="Leaders of the world's three largest nuclear powers met three-way for the "
-              "first time on Thursday, on the sidelines of the APEC summit in Shenzhen. "
-              "Trump pressed for nuclear arms control; Ukraine was not on the agenda."),
-    dict(num=2, cat="EUROPE · CONFLICT", src="Reuters", color=RED,
-         head="Crimea Bridge attacked for the third time in a week",
-         body="Traffic on the 19-kilometre bridge was halted again on Thursday after a "
-              "new attack. Earlier strikes this week destroyed the central roadway "
-              "section and dropped the main arch into the sea."),
-    dict(num=3, cat="CULTURE · TECHNOLOGY", src="Associated Press", color=(146, 52, 118),
+    dict(num=1, cat="CULTURE · TECHNOLOGY", src="Associated Press", color=(146, 52, 118),
          head="After a 13-year wait, Grand Theft Auto VI is finally here",
          body="Worldwide release on Thursday for PlayStation 5 and Xbox Series X|S, "
               "priced at $79.99. A return to Vice City with Lucia and Jason; GTA V has "
               "sold more than 230 million copies."),
+    dict(num=2, cat="ASIA · SUMMIT", src="BusinessWorld · AFP · AP", color=TEAL,
+         head="Trump, Xi and Putin sit down together in Shenzhen — a first",
+         body="Leaders of the world's three largest nuclear powers met three-way for the "
+              "first time on Thursday, on the sidelines of the APEC summit in Shenzhen. "
+              "Trump pressed for nuclear arms control; Ukraine was not on the agenda."),
+    dict(num=3, cat="EUROPE · CONFLICT", src="Reuters", color=RED,
+         head="Crimea Bridge attacked for the third time in a week",
+         body="Traffic on the 19-kilometre bridge was halted again on Thursday after a "
+              "new attack. Earlier strikes this week destroyed the central roadway "
+              "section and dropped the main arch into the sea."),
 ]
 
 GRID = [
@@ -280,7 +280,7 @@ def draw_map(draw, box):
                   (x0 + 392, y0 + 58), (x0 + 320, y0 + 60), (x0 + 268, y0 + 36)], fill=land)  # Asia
     draw.polygon([(x0 + 392, y0 + 76), (x0 + 428, y0 + 74), (x0 + 434, y0 + 92),
                   (x0 + 398, y0 + 96)], fill=land)  # Australia
-    markers = {1: (0.83, 0.40), 2: (0.60, 0.22), 3: (0.265, 0.40), 4: (0.585, 0.37),
+    markers = {1: (0.265, 0.40), 2: (0.83, 0.40), 3: (0.60, 0.22), 4: (0.585, 0.37),
                5: (0.735, 0.47), 6: (0.255, 0.27), 7: (0.505, 0.155), 8: (0.465, 0.25),
                9: (0.405, 0.42)}
     mw, mh = x1 - x0, y1 - y0
